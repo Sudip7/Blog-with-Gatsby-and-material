@@ -8,7 +8,7 @@ class Toolbar extends Component {
     return (
       <div className="toolbar-actions">
         <div className="userlinks-container">
-          <UserLinks config={config} />
+          
         </div>
       </div>
     );

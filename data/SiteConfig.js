@@ -17,7 +17,7 @@ module.exports = {
   userLocation: "Chennai, India", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription:
-    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
+    "Love learning new things. Little obsessed with technology. Java dev experimenting with Python and React.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
@@ -30,11 +30,7 @@ module.exports = {
       url: "https://twitter.com/iSudip7",
       iconClassName: "fa fa-twitter"
     },
-    {
-      label: "Email",
-      url: "mailto:",
-      iconClassName: "fa fa-envelope"
-    }
+    
   ],
   copyright: "Copyright © 2018." // Copyright string for the footer of the website and RSS feed.
 };
