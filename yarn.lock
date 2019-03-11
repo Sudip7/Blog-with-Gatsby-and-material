@@ -2344,6 +2344,10 @@ color@^3.0.0:
     color-convert "^1.9.1"
     color-string "^1.5.2"
 
+colorette@^1.0.5:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.0.7.tgz#7adf43c445ee63a541b4a4aef7d13f03df1e0cc0"
+
 colorguard@^1.2.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/colorguard/-/colorguard-1.2.1.tgz#249647c9702481d9143384fc9813662311afde98"
@@ -4951,6 +4955,10 @@ get-stream@^3.0.0:
 get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
+
+getopts@^2.1.1:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/getopts/-/getopts-2.2.4.tgz#3137fe8a5fddf304904059a851bdc1c22f0f54fb"
 
 getpass@^0.1.1:
   version "0.1.7"
@@ -11377,16 +11385,16 @@ style-search@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
 
-stylefmt@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/stylefmt/-/stylefmt-6.0.0.tgz#c851e9c2d78b8a99502f74ba3d863b30163eec93"
+stylefmt@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/stylefmt/-/stylefmt-6.0.3.tgz#0755600c353056258c6cfed0ff94c09dda016f7e"
   dependencies:
-    chalk "^1.1.3"
+    colorette "^1.0.5"
     css-color-list "^0.0.1"
     diff "^3.2.0"
     editorconfig "^0.13.2"
+    getopts "^2.1.1"
     globby "^6.1.0"
-    minimist "^1.2.0"
     postcss "^6.0.1"
     postcss-scss "^1.0.0"
     postcss-sorting "^2.1.0"
